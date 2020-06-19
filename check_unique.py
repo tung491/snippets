@@ -8,6 +8,11 @@ from collections import defaultdict
 
 
 def check_unique(input_iterable: Iterator) -> bool:
+    """
+    :param input_iterable: Iterator
+    :return: bool
+    Return True if all elements in input_iterator is unique, otherwise return False
+    """
     exists = defaultdict(bool)
 
     for x in input_iterable:
@@ -17,7 +22,7 @@ def check_unique(input_iterable: Iterator) -> bool:
     return True
 
 
-def main():
+def main() -> None:
     print(check_unique('aba'))
     print(check_unique(range(10)))
     print(check_unique('abc'))
