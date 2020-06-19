@@ -1,3 +1,3 @@
-[Snippets]
+# Snippets
 
-This is my snippets collections
+This is my snippets collections. 
