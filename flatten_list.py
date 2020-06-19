@@ -15,7 +15,7 @@ def flatten(input_list: list) -> list:
 
 def main():
     print(flatten([1, [2, [3, 4]]]))
-    print(flatten([1, (2, 3, (4, 5))]))
+    print(flatten([1, (2, 3, {4, 5})]))
 
 
 if __name__ == '__main__':
